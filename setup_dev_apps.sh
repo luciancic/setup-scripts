@@ -2,11 +2,8 @@
 #!/bin/bash
 # Setup my computer with software needed for development
 
-# Git gud.
-apt-get install -y git
-git config --global user.name "Lucian Condrea"
-# May want to change to lucian@condrea.dev soon.
-git config --global user.email luciancondreadev@gmail.com
+# Git gud
+./setup_git.sh
 
 # Docker and setup for use without sudo
 ./setup_docker.sh
